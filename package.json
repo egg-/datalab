@@ -1,0 +1,33 @@
+{
+  "name": "datalab",
+  "version": "0.1.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "naver data lab data crawler for Node.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/datalab.git"
+  },
+  "keywords": [
+    "naver",
+    "datalab",
+    "keyword",
+    "trend",
+    "search"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-nodemon": "^0.4.1",
+    "matchdep": "^1.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "moment": "^2.11.1",
+    "request": "^2.67.0"
+  }
+}
